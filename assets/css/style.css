@@ -1,0 +1,66 @@
+/* Universal Properties */
+/* Default Style Properties */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 1600px;
+}
+
+/* Header Content Style Properties */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 3px black;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+/* Main Content Style Properties */ 
+main {
+    padding-left: 150px;
+    padding-top: 60px;
+}
+
+#high-scores {
+    font-size: 15px;
+    color: black;
+}
+
+#game-name {
+    font-size: 65px;
+}
+
+#time {
+    font-size: 22px;
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: goldenrod;
+}
+
+#title {
+    font-size: 35px;
+}
+
+#content {
+    font-size: 20px;
+}
+
+button {
+    padding: 5px;
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: gold;
+    box-shadow: 10px 5px 5px darkgray;
+}
+
